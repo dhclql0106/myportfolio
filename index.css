@@ -76,5 +76,8 @@ label[for] {
 
 /* cos */
 .con{
-    max-width: 1080px;
+    width: 1080px;
+}
+.con-min-width{
+    min-width: 1080px;
 }
