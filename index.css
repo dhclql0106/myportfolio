@@ -24,3 +24,57 @@ label[for] {
 }
 
 /* 라이브러리 */
+
+.border-red {
+    border: 4px solid red;
+}
+
+.border-pink {
+    border: 4px solid pink;
+}
+
+.border-blue {
+    border: 4px solid blue;
+}
+
+.border-green {
+    border: 4px solid green;
+}
+
+.border-black {
+    border: 4px solid black;
+}
+
+.border-gold {
+    border: 4px solid gold;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-ai-c {
+    align-items: center;
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* cos */
+.con{
+    max-width: 1080px;
+}
