@@ -57,6 +57,10 @@ label[for] {
     align-items: center;
 }
 
+.flex-as-c{
+    align-self: center;
+}
+
 .flex-jc-sb {
     justify-content: space-between;
 }
@@ -86,6 +90,11 @@ label[for] {
 
 .top-bar{
     height: 100px;
+}
+
+.top-bar .btn-go-submit{
+    background-color: #fede22;
+    padding: 10px;
 }
 
 /* 탑바 끝 */
