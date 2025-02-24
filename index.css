@@ -88,8 +88,8 @@ label[for] {
 
 /* 임시 */
 body{
-    background-color: #2378fe;
     height: 10000px;
+    background-color: peru;
 }
 
 /* 탑바 시작 */
@@ -129,6 +129,26 @@ body{
     display: block;
 }
 
+.top-bar .menu-box-1>ul>li>div>div>ul>li{
+    width: 20%;
+    text-align: center;
+}
+
+.top-bar .menu-box-1>ul>li:nth-child(1)>div>div>ul>li {
+    width: 25%;
+}
+
+.top-bar .menu-box-1>ul>li>div>div>ul>li>a{
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+.top-bar .menu-box-1>ul>li>div>div>ul>li:hover>a {
+    text-decoration: underline;
+}
+
+
+
 /* 탑바 -서류제출 버튼 */
 .top-bar .btn-go-submit{
     background-color: #fede22;
@@ -137,10 +157,36 @@ body{
     font-weight: 400;
 }
 
+/* 탑바 - 메뉴박스1 - 2차메뉴 */
+.top-bar .menu-box-1 > ul > li > div{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    display: none;
+    left: 0;
+    top:calc(100% + 1px);
+    padding-top: 30px;
+}
+
+
+.top-bar .menu-box-1>ul>li:hover>div {
+    display: block;
+}
+
+
 /* 탑바 끝 */
 
 
+
 /* 메인 시작 */
+.intro_main {
+    position: relative;
+    width: 100%;
+    height: 884px;
+    margin: 0;
+    background-color: #fff;
+}
+
 .intro_main_content{
     position: relative;
     max-width: 1200px;
