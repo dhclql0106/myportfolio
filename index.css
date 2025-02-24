@@ -151,3 +151,11 @@ body{
     z-index: 1;
     margin: auto;
 }
+
+.intro_main .background-line {
+    width: 100%;
+    height: 720px;
+    background-color: #ffef6b;
+    position: absolute;
+    top: 0;
+}
