@@ -86,6 +86,12 @@ label[for] {
     min-width: 1080px;
 }
 
+/* 임시 */
+body{
+    background-color: #afafaf;
+    height: 10000px;
+}
+
 /* 탑바 시작 */
 
 .top-bar{
