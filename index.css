@@ -107,6 +107,10 @@ body{
     padding: 0 30px;
 }
 
+.top-bar .menu-box-1> ul > li:hover > a {
+    text-decoration: underline;
+}
+
 /* 탑바 -서류제출 버튼 */
 .top-bar .btn-go-submit{
     background-color: #fede22;
