@@ -95,6 +95,8 @@ label[for] {
 .top-bar .btn-go-submit{
     background-color: #fede22;
     padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 /* 탑바 끝 */
